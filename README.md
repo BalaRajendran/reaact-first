@@ -10,6 +10,9 @@ npm i -D nodemon
 npm install eslint --save-dev
 npm i -D eslint eslint-plugin-react babel-eslint
 npm i -S express@4.14.0
+npm install -g babel-cli
+npm install @babel/preset-env
+npm i -S ejs
 mkdir src
 mkdir public
 mkdir api
