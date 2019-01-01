@@ -1,0 +1,39 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "First Trail Website",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js --ignore public/",
+    "dev": "webpack -wd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BalaRajendran/reaact-first.git"
+  },
+  "author": "Balaji Rajendran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BalaRajendran/reaact-first/issues"
+  },
+  "homepage": "https://github.com/BalaRajendran/reaact-first#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongodb": "^3.1.10",
+    "react-dom": "^16.7.0",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^5.11.1",
+    "eslint-plugin-react": "^7.12.0",
+    "html-webpack-plugin": "^3.2.0",
+    "nodemon": "^1.18.9"
+  }
+}
